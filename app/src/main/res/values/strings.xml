@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tugas_latihan_chapter3</string>
+    <string name="tahun_lahir">Tahun Lahir</string>
+    <string name="save">Save</string>
+    <string name="age">age</string>
+    <string name="address">address</string>
+    <string name="number_phone">number Phone</string>
+    <string name="email">email</string>
+    <string name="input_name">input name</string>
+</resources>

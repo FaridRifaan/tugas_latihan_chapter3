@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tugas_parcelable.ParcelableActivity">
+    <EditText
+        android:id="@+id/input_nama_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:hint="@string/input_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_email_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_nama_parce" />
+
+    <EditText
+        android:id="@+id/input_phone_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/number_phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_email_parce" />
+
+    <EditText
+        android:id="@+id/input_address_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_phone_parce" />
+
+    <EditText
+        android:id="@+id/input_age_parce"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_address_parce" />
+
+    <Button
+        android:id="@+id/btn_parcelable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="172dp"
+        android:hint="@string/save"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple_500"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_age_parce" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
